@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch");
+html {
+  height: 100%;
+  background: #ffffff;
+  background: -moz-linear-gradient(-45deg, #ffffff 0%, #ffffff 50%, #fadad8 50%, #fadad8 100%);
+  background: -webkit-gradient(
+    left top,
+    right bottom,
+    color-stop(0%, #ffffff),
+    color-stop(50%, #ffffff),
+    color-stop(50%, #fadad8),
+    color-stop(100%, #fadad8)
+  );
+  background: -webkit-linear-gradient(-45deg, #ffffff 0%, #ffffff 50%, #fadad8 50%, #fadad8 100%);
+  background: -o-linear-gradient(-45deg, #ffffff 0%, #ffffff 50%, #fadad8 50%, #fadad8 100%);
+  background: -ms-linear-gradient(-45deg, #ffffff 0%, #ffffff 50%, #fadad8 50%, #fadad8 100%);
+  background: linear-gradient(135deg, transparent 0%, transparent 50%, #fadad8 50%, #fadad8 100%),
+    linear-gradient(45deg, #fff 0%, #fff 50%, #fff1ff 50%, #fff1ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f3fcfc', GradientType=1);
+  font-family: "Roboto", sans-serif;
+}
+
+.displayFlex {
+  margin-top: 30px;
+  // padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  //   justify-content: space-evenly;
+}
+.pom-title {
+  font-family: "Chakra Petch", sans-serif;
+}
+.timer-title {
+  font-size: 2.7rem;
+  color: #cd32e9;
+  text-shadow: -1px -1px 0 #000, 3px 3px 0 #000, 6px 6px 0 #00000055;
+}
+@media only screen and (max-width: 450px) {
+  .PomoClock {
+    margin-top: 30px;
+  }
+}

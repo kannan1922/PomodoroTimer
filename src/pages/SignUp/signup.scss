@@ -1,0 +1,34 @@
+.signuppage{
+    background-color: #BA4949;
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .signupConatainer{
+        margin-top: 20px;
+        padding: 15px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width:350px;
+        height:100%;
+        border-radius: 10px;
+    }
+    .inputLabel{
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    .inputBase{
+        background-color:#EFEFEF;
+        width: 100%;
+        height: 45px;
+        border-radius: 7px;
+    }
+    .registerDiv{
+        color: grey;
+        margin-top:10px;
+        font-size: 15px;
+    }
+}
